@@ -1540,6 +1540,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4476322796938581497, guid: d5f2c119dd1e1974ab9c9247dcd55091, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7b1127475f1868e46b0e19197fb63250, type: 3}
     - target: {fileID: 4476322797723418682, guid: d5f2c119dd1e1974ab9c9247dcd55091, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1701,7 +1705,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 71d78a3ec0aea52439f3a13a5dfa215b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13040,6 +13044,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: Extra Drop
       objectReference: {fileID: 0}
+    - target: {fileID: 4476322797804835621, guid: d5f2c119dd1e1974ab9c9247dcd55091, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ed2b1929be4bbde49b49702a19a90530, type: 3}
     - target: {fileID: 4476322798179859969, guid: d5f2c119dd1e1974ab9c9247dcd55091, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -13506,6 +13514,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1718878630}
     m_Modifications:
+    - target: {fileID: 4476322797804835621, guid: d5f2c119dd1e1974ab9c9247dcd55091, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 71d78a3ec0aea52439f3a13a5dfa215b, type: 3}
     - target: {fileID: 4476322798179859969, guid: d5f2c119dd1e1974ab9c9247dcd55091, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

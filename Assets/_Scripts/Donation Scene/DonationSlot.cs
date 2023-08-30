@@ -28,13 +28,13 @@ public class DonationSlot : MonoBehaviour
             donateMenu = FindObjectOfType<DonationMenu>();
             
         }
+        if(!slotFilled){
+            return;
+        }
 
         // Reset the icon of the slot
-        if(slotFilled){
-            itemIcon.sprite = emptySprite;
-            slotFilled = false;
-
-        }
+        itemIcon.sprite = emptySprite;
+        slotFilled = false; 
 
         // Decrease the Progression Value & Donation Count in DonationMenu.cs
         donateMenu.donationCount--;
